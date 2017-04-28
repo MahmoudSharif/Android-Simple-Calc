@@ -9,10 +9,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    static double result = 0;
+    static int result = 0;
     static String operator = "";
 
-    private void doCalc(double num){
+    private void doCalc(int num){
         TextView txtResult = (TextView) findViewById(R.id.txtresult);
         txtResult.setText(txtResult.getText().toString() + String.valueOf(num));
         if(result >0)

@@ -38,28 +38,33 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:id="@+id/btn1"
-                android:onClick="btn1_click" />
+                android:onClick="btn1_click"
+                android:textSize="10pt"
+                />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:id="@+id/btn2"
-                android:onClick="btn2_click" />
+                android:onClick="btn2_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:id="@+id/btn3"
-                android:onClick="btn3_click" />
+                android:onClick="btn3_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CM"
                 android:id="@+id/btnClear"
-                android:onClick="btnClear_click" />
+                android:onClick="btnClear_click"
+                android:textSize="10pt"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -71,28 +76,32 @@
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:id="@+id/btn4"
-                android:onClick="btn4_click" />
+                android:onClick="btn4_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:id="@+id/btn5"
-                android:onClick="btn5_click" />
+                android:onClick="btn5_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6"
                 android:id="@+id/btn6"
-                android:onClick="btn6_click" />
+                android:onClick="btn6_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="*"
                 android:id="@+id/btnMultiply"
-                android:onClick="btnMultiply_click" />
+                android:onClick="btnMultiply_click"
+                android:textSize="10pt"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -104,62 +113,72 @@
                 android:layout_height="wrap_content"
                 android:text="7"
                 android:id="@+id/btn7"
-                android:onClick="btn7_click" />
+                android:onClick="btn7_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8"
                 android:id="@+id/btn8"
-                android:onClick="btn8_click" />
+                android:onClick="btn8_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="9"
                 android:id="@+id/btn9"
-                android:onClick="btn9_click" />
+                android:onClick="btn9_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
                 android:id="@+id/btnDevi"
-                android:onClick="btnDevi_click" />
+                android:onClick="btnDevi_click"
+                android:textSize="10pt"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2pt">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="."
-                android:id="@+id/btnDot"
-                android:onClick="btnDot_click" />
+
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:id="@+id/btn0"
-                android:onClick="btn0_click" />
+                android:onClick="btn0_click"
+                android:textSize="10pt"/>
+
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="="
-                android:id="@+id/btnEqual"
-                android:onClick="btnEqual_click" />
+                android:text="+"
+                android:layout_gravity="end"
+                android:id="@+id/btnPlus"
+                android:onClick="btnPlus_click"
+                android:textSize="10pt"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-"
                 android:id="@+id/btnMinus"
-                android:onClick="btnMinus_click" />
-
+                android:onClick="btnMinus_click"
+                android:textSize="10pt"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:id="@+id/btnEqual"
+                android:onClick="btnEqual_click"
+                android:textSize="10pt"/>
 
         </LinearLayout>
     <LinearLayout
@@ -167,14 +186,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2pt"
         android:gravity="end">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="130dp"
-                android:text="+"
-                android:layout_gravity="end"
-                android:height="20pt"
-                android:id="@+id/btnPlus"
-                android:onClick="btnPlus_click" />
+
 
     </LinearLayout>
     </LinearLayout>
