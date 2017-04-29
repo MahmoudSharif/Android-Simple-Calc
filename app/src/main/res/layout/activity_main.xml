@@ -169,7 +169,9 @@
                 android:text="="
                 android:id="@+id/btnEqual"
                 android:onClick="btnEqual_click"
-                android:textSize="15pt"/>
+                android:textSize="15pt"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/background_light"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -177,7 +179,8 @@
                 android:text="*"
                 android:id="@+id/btnMultiply"
                 android:onClick="btnMultiply_click"
-                android:textSize="15pt"/>
+                android:textSize="15pt"
+                />
 
         </LinearLayout>
     </LinearLayout>
